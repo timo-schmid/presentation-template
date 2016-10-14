@@ -1,7 +1,5 @@
-# Fun and Games with Fix, Cofree, and Doobie
+# tut Presentation Template
 
-Companion code for the talk.
-
-- Slides are published [here](http://tpolecat.github.io/presentations/cofree/slides) ... press `?` for help.
-- If you wish to build the slides for some reason, type `tut` at the sbt prompt.
-
+- Edit tut/slides.html
+- Add any helper code into the presentation root, they should be picked up by sbt.
+- To build, run `sbt tut`.
