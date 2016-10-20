@@ -1,5 +1,25 @@
-# tut Presentation Template
+# Introduction to doobie
 
-- Edit tut/slides.html
-- Add any helper code into the presentation root, they should be picked up by sbt.
-- To build, run `sbt tut`.
+## Running postgresql
+
+Docker is used to run the database. With docker-compose, it's as easy as this:
+
+```
+docker-compose up -d
+```
+
+To check if everything went well, you can use:
+
+```
+docker-compose logs -f
+```
+
+To connect to the database run this command:
+
+```
+psql -h localhost -p 5432 world meetup
+
+```
+
+## ...
+
